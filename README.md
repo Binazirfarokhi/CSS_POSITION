@@ -19,8 +19,9 @@ Sticky: untill you have content will be stick to them and once its finished ther
 
 overall: static : default, for non-positioned elements. 
 relative: behaves like static by maintaining markup flow but makes elements positioned 
-absolute: takes an element form the flow in the markup, and the elements respect positioning distance of the closest relative parent. 
+absolute: takes an element form the flow in the markup, and the elements respect positioning distance of the closest relative parent.if there is no parent relative to absolute it will choose body or html( view port) .if  there are   other element can take thatelement space.
+absolute use the closes raltive postion to make it as a base. 
 
-fixed: silimar to absolute, but respects only the viewport. 
+fixed: silimar to absolute, but respects only the viewport and not looking for any parent or relative postion. 
 
-Sticky: switches between relative and fixed. its relative by default but becomes fixed whe na position in a scrolling container is marched.
+Sticky: switches between relative and fixed. its relative by default but becomes fixed whe na position in a scrolling container is marched.( it should work with scrolling content if you do not have it will not work for you)
