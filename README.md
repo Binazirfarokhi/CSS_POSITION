@@ -9,5 +9,12 @@ you would say hmm I can do it with margin, but margin will push the other elemen
 
 position relative will makes element positioned , but keeps it in the markup flow until it is re-positioned. it can go outof his parent box, it can go based on its first position, whereever it wants to go, it will go. the problem is, you will have a space there, and it is hard to get rid of this space . 
 
-position absolute : 
+position absolute : makes an element positioned , and removes it from the html flow, it is also bounded by the closest relative parent if you do not specifiy whic parent are you talking about by default will choose body or html. it can take any space.the postion absolute work with position realtive, 
+"position: absolute; works with position: relative;" → Not always! It only considers an ancestor with position: relative;, absolute;, or fixed;.
 
+
+fixed doesnot care to any parent, just use the view port. and will stay all the time. 
+
+Sticky: untill you have content will be stick to them and once its finished there is no where to go.
+
+overall: static : 
