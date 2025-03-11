@@ -17,4 +17,10 @@ fixed doesnot care to any parent, just use the view port. and will stay all the 
 
 Sticky: untill you have content will be stick to them and once its finished there is no where to go.
 
-overall: static : 
+overall: static : default, for non-positioned elements. 
+relative: behaves like static by maintaining markup flow but makes elements positioned 
+absolute: takes an element form the flow in the markup, and the elements respect positioning distance of the closest relative parent. 
+
+fixed: silimar to absolute, but respects only the viewport. 
+
+Sticky: switches between relative and fixed. its relative by default but becomes fixed whe na position in a scrolling container is marched.
