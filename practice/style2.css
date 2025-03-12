@@ -1,0 +1,53 @@
+h1{
+    height: 30vh;
+    text-align: center;
+    background-color: #3b3333;
+    color: wheat;
+}
+
+.shopping{
+    border: 1px solid black;
+    max-width: 600px;
+    margin: auto;
+    padding:50px;
+   
+    background-color: #d3a0a0;
+   
+  text-align: center;
+}
+.bag,.hole{
+    font-size: 3.8rem;
+}
+.coin{
+    font-size: 1.8rem;
+position: relative;
+/* top:50px; */
+bottom: 50px;
+/* top: 400px; */
+
+
+}
+/* .blue{
+    position: fixed;
+    top:10px;
+} */
+
+.balls{
+    font-size: 3.8rem;
+    height: 500px;
+    overflow-y:auto ;
+    gap:.5rem;
+    /* position: relative; */
+    border: 1px solid red;
+}
+.red{
+/* margin: 120px; */
+z-index: 10;
+
+}
+
+/* .green{ 
+    position: absolute;
+    top:0px;
+    left:10px;
+} */
