@@ -4,7 +4,8 @@
     /* display: flex; */
     border: 1px solid black;
     padding: 20px;
-    width:400px;
+    width:700px;
+    margin: auto;
     position: relative;
     overflow-y: auto;
 }
